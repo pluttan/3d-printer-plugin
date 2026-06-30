@@ -1,0 +1,133 @@
+{
+  "ru": {
+    "inherited":["en"],
+    "lang": {
+      "close": "Закрыть",
+      "discard": "Отменить",
+      "save": "Сохранить",
+      "send": "Отправить",
+      "reload": "Обновить",
+      "select": "Выбрать",
+      "connect": "Подключить",
+      "disconnect": "Отключить",
+      "preview": "Превью",
+      "terminate": "Прервать",
+      "run": "Выполнить",
+      "ok": "OK",
+
+      "load-preview": "Превью из",
+      "from-file": "файла...",
+      "from-clipboard": "буфер обмена",
+
+      "setup": "Настройка",
+      "file": "Файл",
+      "terminal": "Терминал",
+      "printer": "Принтер",
+      "language": "Язык",
+      "proxy": "Прокси",
+      "yandex": "Яндекс",
+      "override": "Перезаписывать",
+      "telegram": "Телеграм",
+      "alisa": "Алиса",
+
+      "printer-name": "Новый принтер",
+      "printer-new": "<новый>",
+      "printer-apply": "Изменить",
+      "printer-delete": "Удалить",
+      "printers-options": "Настройки принтеров",
+      "plugin-options": "Настройки плагина",
+      "network-options": "Настройки сети",
+      "auto-close": "Закрыть окно по окончании",
+      "native-file-dialog": "Системное окно выбора файла",
+      "preview-aspect-ratio": "Сохранять пропорции",
+
+      "start-printing": "Запустить печать",
+      "output-name": "Файл",
+
+      "prepared": "Подготовлено",
+      "success": "Успешно",
+      "connecting": "Соединение...",
+      "sent": "Передано",
+      "error": "Ошибка",
+      "error-unsupported-action": "Недопустимое действие",
+      "error-no-printers": "Нет настроенных принтеров",
+
+      "action": "Действие",
+      "open-file": "Открыть файл",
+      "save-to-file": "Сохранить файл",
+      "send-to-printer": "Передать на принтер",
+      "print-to-printer": "Отправить на печать",
+      "send-to-yandex": "Сохранить на Яндекс диске"
+    }
+  },
+  "ua": {
+    "inherited":["en", "ru"],
+    "lang": {
+
+    }
+  },
+  "en": {
+    "lang": {
+      "title": "SHUI WiFi Plugin",
+      "close": "Close",
+      "discard": "Discard",
+      "save": "Save",
+      "send": "Send",
+      "reload": "Reload",
+      "select": "Select",
+      "connect": "Connect",
+      "disconnect": "Disconnect",
+      "preview": "Preview",
+      "terminate": "Terminate",
+      "run": "Run",
+      "ok": "OK",
+
+      "load-preview": "Preview from",
+      "from-file": "file...",
+      "from-clipboard": "clipboard",
+
+      "setup": "Setup",
+      "file": "File",
+      "terminal": "Terminal",
+      "printer": "Printer",
+      "language": "Language",
+      "proxy": "Proxy",
+      "yandex": "Yandex",
+      "override": "Override",
+      "telegram": "Telegram",
+      "alisa": "Alisa",
+      "telegram-bot-welcome": "Telegram bot console",
+
+      "printer-name": "New printer",
+      "printer-new": "<new>",
+      "printer-ip": "192.168.",
+      "printer-esp32": "Esp32",
+      "printer-apply": "Apply",
+      "printer-delete": "Delete",
+      "printers-options": "Printers options",
+      "plugin-options": "Plugin options",
+      "network-options": "Network options",
+      "auto-close": "Close window on success",
+      "native-file-dialog": "System file selection window",
+      "preview-aspect-ratio": "Preserve aspect ratio",
+
+      "start-printing": "Start printing",
+      "output-name": "File",
+
+      "prepared": "Prepared",
+      "success": "Success",
+      "connecting": "Connecting...",
+      "sent": "Sent",
+      "error": "Error",
+      "error-unsupported-action": "Unsupported action",
+      "error-no-printers": "No printers configured",
+
+      "action": "Action",
+      "open-file": "Open file",
+      "save-to-file": "Save to file",
+      "send-to-printer": "Load to printer",
+      "print-to-printer": "Send to printer and print",
+      "send-to-yandex": "Send to Yandex disk"
+    }
+  }
+}
