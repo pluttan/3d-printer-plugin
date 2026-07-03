@@ -1,14 +1,9 @@
-![Header](header.png)
-
 <div align="center">
 
 # SHUI Uploader Plugin
 
 **Плагин Cura для загрузки G-code на WiFi-принтеры SHUI**
 
-[![License](https://img.shields.io/badge/license-MIT-2C2C2C?style=for-the-badge&labelColor=1E1E1E)](LICENSE)
-[![Python](https://img.shields.io/badge/python-plugin-2C2C2C?style=for-the-badge&logo=python&labelColor=1E1E1E)]()
-[![Cura](https://img.shields.io/badge/cura%20sdk-7.5--8.2-2C2C2C?style=for-the-badge&labelColor=1E1E1E)]()
 
 </div>
 
@@ -29,7 +24,7 @@
 
 <div align="center">
 
-| Компонент | Technology |
+| Компонент | Технология |
 |-----------|------------|
 | Язык | Python 3 |
 | GUI | PyQt6 / PyQt5 |
@@ -39,7 +34,17 @@
 
 </div>
 
-## ■ Запуск
+## ■ Как это работает
+
+```
+1. Установите директорию плагина в папку plugins Cura; он регистрируется как устройство вывода в меню сохранения/экспорта.
+2. Настройте принтеры через config.json (обычный HTTP или режим ESP32) и выберите цель в Qt GUI.
+3. Нарежьте модель в Cura и запустите загрузку — G-code отправляется HTTP POST на эндпоинт /upload принтера по локальной сети.
+4. Управляйте принтером (джоггинг осей, запуск фрагментов G-code, мониторинг температуры хотенда и стола) или откройте живую TCP-консоль (порт 8080) из панели плагина.
+5. При желании получайте уведомления в Telegram о статусе печати или загружайте на Яндекс Диск для запуска голосовых сценариев Яндекс Алисы.
+```
+
+## ■ Использование
 
 Скопируйте директорию плагина в папку `plugins` Cura. Для автономного запуска из корня плагина:
 
@@ -50,7 +55,7 @@ START_MODE=STANDALONE python prusha.py <gcode_file>
 
 Без `START_MODE=STANDALONE` `prusha.py` запускается в режиме постобработки PrusaSlicer.
 
-## ■ Repository Structure
+## ■ Структура репозитория
 
 ```
 .
@@ -77,6 +82,6 @@ START_MODE=STANDALONE python prusha.py <gcode_file>
         └── controls/            # GCodeActionsControl (jog/snippets)
 ```
 
-## ■ License
+## ■ Лицензия
 
 MIT © [pluttan](https://github.com/pluttan)
